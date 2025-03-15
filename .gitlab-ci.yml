@@ -1,0 +1,9 @@
+image: eclipse-temurin:21-jdk
+
+stages:
+  - test
+
+test-job:
+  stage: test
+  script:
+    - java -version
