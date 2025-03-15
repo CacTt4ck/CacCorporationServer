@@ -20,6 +20,3 @@ spring:
     name: CacCorporationServer
 server:
   port: 8080
-# efesjuhfsej
-
-

@@ -5,5 +5,9 @@ stages:
 
 test-job:
   stage: test
+  tags:
+    - java
+    - springboot
   script:
-    - java -version
+    - echo "Test Runner"
+
