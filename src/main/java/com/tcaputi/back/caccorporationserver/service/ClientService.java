@@ -20,9 +20,11 @@ public class ClientService {
 
     private final ClientRepository clientRepository;
 
+    private static final String CLIENT_WITH_ID_NOT_FOUND = "Client with id %s not found";
+
     public ClientDTO getClientById(UUID id) {
         Client client = clientRepository.findById(id)
-                .orElseThrow(() -> new ClientNotFoundException("Client with ID " + id + " not found"));
+                .orElseThrow(() -> new ClientNotFoundException(String.format(CLIENT_WITH_ID_NOT_FOUND, id)));
         return convertToDTO(client);
     }
 
@@ -41,7 +43,7 @@ public class ClientService {
 
     public ClientDTO updateClient(UUID id, ClientDTO clientDTO) {
         Client existingClient = clientRepository.findById(id)
-                .orElseThrow(() -> new ClientNotFoundException("Client with ID " + id + " not found"));
+                .orElseThrow(() -> new ClientNotFoundException(String.format(CLIENT_WITH_ID_NOT_FOUND, id)));
 
         existingClient.setName(clientDTO.name());
         existingClient.setEmail(clientDTO.email());
@@ -63,7 +65,7 @@ public class ClientService {
 
     public void deleteClient(UUID id) {
         if (!clientRepository.existsById(id)) {
-            throw new ClientNotFoundException("Client with ID " + id + " not found");
+            throw new ClientNotFoundException(String.format(CLIENT_WITH_ID_NOT_FOUND, id));
         }
         clientRepository.deleteById(id);
     }
