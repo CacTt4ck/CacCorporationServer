@@ -9,4 +9,5 @@ build-test:
     - java
     - springboot
   script:
+    - chmod +x ./gradlew
     - ./gradlew clean build
