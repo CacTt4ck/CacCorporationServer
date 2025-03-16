@@ -1,7 +1,7 @@
 image: eclipse-temurin:21-jdk
 
 stages:
-  - test
+  - build
 
 test-job:
   stage: test
@@ -11,3 +11,10 @@ test-job:
   script:
     - echo "Test Runner"
 
+build-test:
+  stage: build
+  tags:
+    - java
+    - springboot
+  script:
+    - ./gradlew clean build
