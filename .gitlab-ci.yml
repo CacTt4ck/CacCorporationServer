@@ -3,14 +3,6 @@ image: eclipse-temurin:21-jdk
 stages:
   - build
 
-test-job:
-  stage: test
-  tags:
-    - java
-    - springboot
-  script:
-    - echo "Test Runner"
-
 build-test:
   stage: build
   tags:
