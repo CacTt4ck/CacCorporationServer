@@ -11,3 +11,5 @@ build-test:
   script:
     - chmod +x ./gradlew
     - ./gradlew clean build
+  only:
+    - protected
