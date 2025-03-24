@@ -1,4 +1,4 @@
-package com.tcaputi.back.caccorporationserver.dto;
+package com.tcaputi.back.caccorporationserver.client.dto;
 
 import java.util.UUID;
 

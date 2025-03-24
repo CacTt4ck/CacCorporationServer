@@ -1,9 +1,9 @@
-package com.tcaputi.back.caccorporationserver.service;
+package com.tcaputi.back.caccorporationserver.client.service;
 
-import com.tcaputi.back.caccorporationserver.dto.ClientDTO;
-import com.tcaputi.back.caccorporationserver.entity.Client;
-import com.tcaputi.back.caccorporationserver.exception.ClientNotFoundException;
-import com.tcaputi.back.caccorporationserver.repository.ClientRepository;
+import com.tcaputi.back.caccorporationserver.client.dto.ClientDTO;
+import com.tcaputi.back.caccorporationserver.client.entity.Client;
+import com.tcaputi.back.caccorporationserver.common.exception.ClientNotFoundException;
+import com.tcaputi.back.caccorporationserver.client.repository.ClientRepository;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.domain.Page;

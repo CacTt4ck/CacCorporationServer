@@ -1,4 +1,4 @@
-package com.tcaputi.back.caccorporationserver.entity;
+package com.tcaputi.back.caccorporationserver.client.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

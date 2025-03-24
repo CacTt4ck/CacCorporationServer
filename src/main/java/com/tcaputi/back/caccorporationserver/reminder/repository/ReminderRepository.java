@@ -1,6 +1,6 @@
-package com.tcaputi.back.caccorporationserver.repository;
+package com.tcaputi.back.caccorporationserver.reminder.repository;
 
-import com.tcaputi.back.caccorporationserver.entity.Reminder;
+import com.tcaputi.back.caccorporationserver.reminder.entity.Reminder;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

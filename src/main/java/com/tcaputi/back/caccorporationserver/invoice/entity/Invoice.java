@@ -1,5 +1,6 @@
-package com.tcaputi.back.caccorporationserver.entity;
+package com.tcaputi.back.caccorporationserver.invoice.entity;
 
+import com.tcaputi.back.caccorporationserver.client.entity.Client;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
