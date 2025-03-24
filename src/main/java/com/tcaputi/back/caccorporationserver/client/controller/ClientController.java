@@ -1,7 +1,7 @@
-package com.tcaputi.back.caccorporationserver.controller;
+package com.tcaputi.back.caccorporationserver.client.controller;
 
-import com.tcaputi.back.caccorporationserver.dto.ClientDTO;
-import com.tcaputi.back.caccorporationserver.service.ClientService;
+import com.tcaputi.back.caccorporationserver.client.dto.ClientDTO;
+import com.tcaputi.back.caccorporationserver.client.service.ClientService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.domain.Pageable;

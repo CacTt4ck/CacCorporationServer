@@ -1,4 +1,4 @@
-package com.tcaputi.back.caccorporationserver;
+package com.tcaputi.back.caccorporationserver.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

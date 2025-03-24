@@ -1,6 +1,6 @@
-package com.tcaputi.back.caccorporationserver.repository;
+package com.tcaputi.back.caccorporationserver.client.repository;
 
-import com.tcaputi.back.caccorporationserver.entity.ClientInteraction;
+import com.tcaputi.back.caccorporationserver.client.entity.ClientInteraction;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,9 +1,9 @@
-package com.tcaputi.back.caccorporationserver.service;
+package com.tcaputi.back.caccorporationserver.reminder.service;
 
-import com.tcaputi.back.caccorporationserver.entity.Client;
-import com.tcaputi.back.caccorporationserver.entity.Reminder;
-import com.tcaputi.back.caccorporationserver.repository.ClientRepository;
-import com.tcaputi.back.caccorporationserver.repository.ReminderRepository;
+import com.tcaputi.back.caccorporationserver.client.entity.Client;
+import com.tcaputi.back.caccorporationserver.reminder.entity.Reminder;
+import com.tcaputi.back.caccorporationserver.client.repository.ClientRepository;
+import com.tcaputi.back.caccorporationserver.reminder.repository.ReminderRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

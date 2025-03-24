@@ -1,6 +1,6 @@
-package com.tcaputi.back.caccorporationserver.repository;
+package com.tcaputi.back.caccorporationserver.invoice.repository;
 
-import com.tcaputi.back.caccorporationserver.entity.Invoice;
+import com.tcaputi.back.caccorporationserver.invoice.entity.Invoice;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

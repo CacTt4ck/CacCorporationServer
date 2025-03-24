@@ -1,4 +1,4 @@
-package com.tcaputi.back.caccorporationserver.exception;
+package com.tcaputi.back.caccorporationserver.common.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

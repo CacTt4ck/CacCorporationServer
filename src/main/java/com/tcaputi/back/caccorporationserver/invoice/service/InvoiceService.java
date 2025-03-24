@@ -1,9 +1,9 @@
-package com.tcaputi.back.caccorporationserver.service;
+package com.tcaputi.back.caccorporationserver.invoice.service;
 
-import com.tcaputi.back.caccorporationserver.entity.Client;
-import com.tcaputi.back.caccorporationserver.entity.Invoice;
-import com.tcaputi.back.caccorporationserver.repository.ClientRepository;
-import com.tcaputi.back.caccorporationserver.repository.InvoiceRepository;
+import com.tcaputi.back.caccorporationserver.client.entity.Client;
+import com.tcaputi.back.caccorporationserver.invoice.entity.Invoice;
+import com.tcaputi.back.caccorporationserver.client.repository.ClientRepository;
+import com.tcaputi.back.caccorporationserver.invoice.repository.InvoiceRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
